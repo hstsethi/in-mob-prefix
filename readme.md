@@ -9,10 +9,18 @@ Note: This dataset is provided "as-is" without any warranty of any kind. While I
 
 - Privacy friendly alternative to reverse phone number lookup services like Truecaller
 
+
+
 - Model training
 
 - Spam Detection
 
+## Using Machine Learning To Predict Operator Names
+
+A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will trathe model using KNN and save the resulting model, which can be used to predict. 
+
+To run it simply run: `python predict-operator.py`. 
+ 
 ## Sources
 
 Majority of this data is sourced from Wikipedia and Telecom Regulatory Authority of India(TRAI). Rest of it was collected from various sources including web scrapping, personal research and other publicly available resources.
