@@ -9,17 +9,35 @@ Note: This dataset is provided "as-is" without any warranty of any kind. While I
 
 - Privacy friendly alternative to reverse phone number lookup services like Truecaller
 
-
-
 - Model training
 
 - Spam Detection
 
 ## Using Machine Learning To Predict Operator Names
 
-A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will trathe model using KNN and save the resulting model, which can be used to predict. 
+A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will trathe model using KNN, save it and predict using newly trained model." 
 
-To run it simply run: `python predict-operator.py`. 
+
+
+### Examples
+
+``` 
+$ python predict-operator.py ../data/6xxx-in-mob-prefix.csv "7000" ../models/6xxx-knn.bin
+
+Predicted Operator: 
+['RJ']
+
+
+```
+
+```
+$ python predict-operator.py ../data/9xxx-in-mob-prefix.csv "9000" ../models/9xxx-knn.bin
+
+Operator Found in Database
+['AT']
+
+```
+
  
 ## Sources
 

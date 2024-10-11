@@ -62,7 +62,7 @@ def main():
         print("Operator Found in Database\n", operator) # Print on a seperate line so it's easier to grep
     elif os.path.exists(model_to_load):
         predicted_operator = predict_using_saved_model(model_to_load, series_to_predict)
-        print("Predicted Operator:", predicted_operator)
+        print("Predicted Operator:\n", predicted_operator)
     else:
         print(f"Error: {model_to_load} Does not exist. Starting model training")
         train_save_model(model_to_load, database_filename)
