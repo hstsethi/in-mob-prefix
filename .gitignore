@@ -1,4 +1,5 @@
 todo.private
+__pycache__
 .ipynb_checkpoints
 
 # *.png # Can't be added to gitignore. Github needs them for displaying in notebook as it doesn't run notebooks, only previews them.
