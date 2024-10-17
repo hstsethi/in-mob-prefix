@@ -17,22 +17,22 @@ See the section below for pretrained models, training and inference script.
 
 ## Using Machine Learning To Predict Operator Names
 
-A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will trathe model using KNN, save it and predict using newly trained model.
+A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will trathe model using Gradient Boosting Classifer(GBC), save it and predict using newly trained model.
 
+Pretrained models are provided, but if you want, you can train your own by running `python train_save_all.py`
 
 ### Examples
 
 ``` 
-$ python predict-operator.py ../data/6xxx-in-mob-prefix.csv "7000" ../models/6xxx-knn.bin
+$ python predict-operator.py ../data/6xxx-in-mob-prefix.csv 7000 ../models/6xxx-gbc.bin
 
 Predicted Operator: 
 ['RJ']
 
-
 ```
 
 ```
-$ python predict-operator.py ../data/9xxx-in-mob-prefix.csv "9000" ../models/9xxx-knn.bin
+$ python predict-operator.py ../data/9xxx-in-mob-prefix.csv 9000 ../models/9xxx-gbc.bin
 
 Operator Found in Database
 ['AT']
