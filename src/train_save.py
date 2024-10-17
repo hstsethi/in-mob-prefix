@@ -10,7 +10,7 @@ def train_save_model(model_name, database_filename):
     data.dropna(inplace=True)
     data.drop_duplicates(inplace=True)
     X_train, X_test, y_train, y_test = train_test_split(data["series"].values.reshape(-1,1), data["operator"].values.reshape(-1,1)) # Pass a numpy array here directly so this method doesn't have to be called again and again.
-    gbc = GradientBoostingClassifier() 
+    gbc = GradientBoostingClassifier(n_estimators=75, max_depth=2, random_state=42) 
     gbc.fit(X_train, y_train.ravel())
     train_pred = gbc.predict(X_train)
     test_pred = gbc.predict(X_test)
