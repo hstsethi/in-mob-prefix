@@ -17,7 +17,7 @@ See the section below for pretrained models, training and inference script.
 
 ## Using Machine Learning To Predict Operator Names
 
-A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will trathe model using Gradient Boosting Classifer(GBC), save it and predict using newly trained model.
+A Python script named, `predict-operator.py` is provided with this project. It works by checking if the operator to predict is in dataset. If not, it will try using the appropriate model for predicting the operator. If appropriate model is not found, it will train the model using Gradient Boosting Classifer(GBC), save it, and predict using newly trained model.
 
 Pretrained models are provided, but if you want, you can train your own by running `python train_save_all.py`
 
