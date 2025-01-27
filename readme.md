@@ -43,3 +43,5 @@ Operator Found in Database
 ## Sources
 
 Majority of this data is sourced from Wikipedia and Telecom Regulatory Authority of India(TRAI). Rest of it was collected from various sources including web scrapping, personal research and other publicly available resources.
+
+A person was complaining that the dataset contains missing values. It is intentionally like that, because I want to be accurate, and this data is hard to find. If I wanted, I could fill the data with a single function call `df.fillna()`, but I did not.
