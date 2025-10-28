@@ -1,6 +1,4 @@
-Phone numbers in India are a set of unique 10 digit numbers. Out of which, first 4 are network operator/circle code. These prefixes range from 6xxx - 9xxx. Last six are random. This is a dataset, charts, model of first four numbers with their respective state, operator name.
-
-Note: Starting from commit hash `9de66f3f74e465c973f5e2a47241c7627ca94c32`, the dataset is refractored to contain only 3 columns: series, operator, circle. This makes it easier to use/read and eliminates duplicate columns name.
+Phone numbers in India are a set of unique 10 digit numbers. Out of which, first 4 are network operator/circle code. These prefixes range from 6xxx - 9xxx. Last six are random. This is a dataset, charts, model of first four numbers with their respective circle, operator name.
 
 Note: This dataset is provided "as-is" without any warranty of any kind. While I have personally fixed many errors, I still can't guarantee that this dataset is accurate. Use at your own risk.
 
@@ -42,6 +40,6 @@ Operator Found in Database
  
 ## Sources
 
-Majority of this data is sourced from Wikipedia and Telecom Regulatory Authority of India(TRAI). Rest of it was collected from various sources including web scrapping, personal research and other publicly available resources.
+Majority of this data is sourced from Wikipedia, Department of Telecom(DoT) and Telecom Regulatory Authority of India(TRAI). Rest of it was collected from various sources including web scrapping, personal research. The metro circles which have been [merged into their respective states](https://www.thehindu.com/business/Industry/DoT-to-merge-Mumbai-Kolkata-telecom-circles-with-Maharashtra-Bengal/article60087718.ece) were updated using the script provided in src/scripts folder.
 
-A person was complaining that the dataset contains missing values. It is intentionally like that, because I want to be accurate, and this data is hard to find. If I wanted, I could fill the data with a single function call `df.fillna()`, but I did not.
+The dataset contains missing values, because I want to be accurate, and this data is hard to find. If I wanted, I could fill the data with a single function call `df.fillna()`, but I did not.

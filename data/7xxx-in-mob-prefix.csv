@@ -2,7 +2,7 @@ series,operator,circle
 7000,RJ,MP
 7001,RJ,WB
 7002,RJ,AS
-7003,RJ,KO
+7003,RJ,WB
 7004,RJ,BR
 7005,RJ,NE
 7006,RJ,JK
@@ -20,7 +20,7 @@ series,operator,circle
 7018,RJ,HP
 7019,RJ,KA
 7020,RJ,MH
-7021,RJ,MU
+7021,RJ,MH
 7022,AT,KA
 7023,AT,RJ
 7024,AT,MP
@@ -38,13 +38,13 @@ series,operator,circle
 7036,VI,AP
 7037,,
 7038,VI,MH
-7039,VI,MU
+7039,VI,MH
 7040,,
 7041,,
 7042,AT,DL
 7043,AT,GJ
-7044,AT,KO
-7045,VI,MU
+7044,AT,WB
+7045,VI,MH
 7046,VI,GJ
 7047,AT,WB
 7048,RJ,DL
@@ -208,7 +208,7 @@ series,operator,circle
 7206,,
 7207,AT,HR
 7208,,
-7209,AT,MU
+7209,AT,MH
 7210,,
 7211,,
 7212,,
@@ -399,7 +399,7 @@ series,operator,circle
 7397,,
 7398,,
 7399,,
-7400,AT,MU
+7400,AT,MH
 7401,,
 7402,,
 7403,,
@@ -448,8 +448,8 @@ series,operator,circle
 7446,,
 7447,,
 7448,,
-7449,VI,KO
-7450,VI,KO
+7449,VI,WB
+7450,VI,WB
 7451,,
 7452,,
 7453,,
@@ -505,7 +505,7 @@ series,operator,circle
 7503,,
 7504,,
 7505,,
-7506,VI,MU
+7506,VI,MH
 7507,VI,MH
 7508,VI,PB
 7509,,
@@ -709,7 +709,7 @@ series,operator,circle
 7707,VI,BR
 7708,AT,TN
 7709,AT,MH
-7710,AT,MU
+7710,AT,MH
 7711,,
 7712,,
 7713,,
@@ -717,7 +717,7 @@ series,operator,circle
 7715,,
 7716,,
 7717,RJ,BR
-7718,AT,MU
+7718,AT,MH
 7719,VI,MH
 7720,VI,MH
 7721,VI,MH
@@ -737,7 +737,7 @@ series,operator,circle
 7735,,
 7736,AT,KL
 7737,AT,RJ
-7738,AT,MU
+7738,AT,MH
 7739,AT,BR
 7740,,
 7741,VI,MH
@@ -890,7 +890,7 @@ series,operator,circle
 7887,VI,MH
 7888,RJ,PB
 7889,RJ,JK
-7890,VI,KO
+7890,VI,WB
 7891,VI,RJ
 7892,RJ,KA
 7893,AT,AP
@@ -979,10 +979,10 @@ series,operator,circle
 7976,RJ,MP
 7977,RJ,KA
 7978,RJ,RJ
-7979,RJ,MU
+7979,RJ,MH
 7980,RJ,OR
 7981,RJ,BR
-7982,RJ,KO
+7982,RJ,WB
 7983,RJ,AP
 7984,RJ,DL
 7985,RJ,UW
