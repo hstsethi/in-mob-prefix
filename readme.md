@@ -40,6 +40,6 @@ Operator Found in Database
  
 ## Sources
 
-Majority of this data is sourced from Wikipedia, Department of Telecom(DoT) and Telecom Regulatory Authority of India(TRAI). Rest of it was collected from various sources including web scrapping, personal research. The metro circles which have been [merged into their respective states](https://www.thehindu.com/business/Industry/DoT-to-merge-Mumbai-Kolkata-telecom-circles-with-Maharashtra-Bengal/article60087718.ece) were updated using the script provided in src/scripts folder.
+Majority of this data is sourced from Wikipedia, Department of Telecom(DoT) and Telecom Regulatory Authority of India(TRAI). Rest of it was collected from various sources including web scrapping, personal research. The metro circles which have been [merged into their respective states](https://www.thehindu.com/business/Industry/DoT-to-merge-Mumbai-Kolkata-telecom-circles-with-Maharashtra-Bengal/article60087718.ece) were updated. Then the rows which have both columns empty were dropped using the script provided in src/scripts folder. 
 
 The dataset contains missing values, because I want to be accurate, and this data is hard to find. If I wanted, I could fill the data with a single function call `df.fillna()`, but I did not.
